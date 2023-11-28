@@ -1,0 +1,8 @@
+title: T2Manager
+description: The all in 1 discord bot
+theme: jekyll-theme-cayman
+show_downloads: true
+github:
+  zip_url: https://discord.com/api/oauth2/authorize?client_id=982953875915034644&permissions=8&scope=bot%20applications.commands
+  repository_url: https://discord.gg/aMgCkekQJ9
+  tar_url: https://top.gg/bot/982953875915034644
