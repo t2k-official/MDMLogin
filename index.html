@@ -3,20 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <title>T2MFut MDM Login Page</title>
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="login-container">
     <h2>Login</h2>
-    <form id="login-form" action="">
+    <form id="login-form">
       <label for="username">Username:</label>
       <input type="text" id="username" name="username" required>
       
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" required>
       
-      <button type="submit">Login</button>
+      <button type="button" onclick="checkCredentials()">Login</button>
     </form>
   </div>
+
+  <script>
+    function checkCredentials() {
+      var username = document.getElementById('username').value;
+      var password = document.getElementById('password').value;
+
+      // Replace these hardcoded values with your actual usernames and passwords
+      var adminUsername = 'monkey';
+      var adminPassword = 'admin';
+
+      if (username === validUsername && password === validPassword) {
+        alert('Login successful!');
+        // Redirect or perform other actions after successful login
+      } else {
+        alert('Invalid username or password!');
+      }
+    }
+  </script>
 </body>
 </html>
