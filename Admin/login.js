@@ -22,7 +22,7 @@ function checkLogin() {
     }
     else if(enteredUsername === 'monkey') {
     window.location.href = './Important/home.md'; 
-    } else if(enteredUsername === 'guest') {
+    } else if(enteredUsername === 'Guest') {
     window.location.href = '../home.md'; 
     }
   } else {
