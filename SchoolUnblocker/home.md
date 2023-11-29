@@ -1,7 +1,9 @@
 # T2M School Unblocker
 
-## Tested Mdm's
-[List Of Mdm Services This Works With](./MdmList.md)
+## Info
+[List Of Tested Mdm Services](./MdmList.md)
+
+[What Is Mdm?](./WIM.md)
 
 ## Required Steps
 [1. Required Resources](./RequiredResources.md)
