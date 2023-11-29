@@ -23,7 +23,7 @@ function checkLogin() {
     else if(enteredUsername === 'monkey') {
     window.location.href = './Important/home.md'; 
     } else if(enteredUsername === 'Guest') {
-    window.location.href = '../home.md'; 
+    window.location.href = '../index.md'; 
     }
   } else {
     alert('Invalid username or password. Please try again.');
