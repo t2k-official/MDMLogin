@@ -1,0 +1,75 @@
+/* Body styles */
+body {
+  background-image: url('background_image.jpg'); /* Replace 'background_image.jpg' with your image path */
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styles */
+h1 {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Button styles */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.button:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(to bottom right, #ffffff 50%, #add8e6 50%);
+  transition: all 0.3s ease;
+  z-index: -1;
+  transform: translateX(-75%);
+}
+
+.button:hover:before {
+  transform: translateX(0);
+}
+
+/* Button hover styles */
+.button:hover {
+  transform: scale(0.95);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+/* Specific button styles */
+.button:nth-child(odd):before {
+  background: linear-gradient(to bottom right, #add8e6 50%, #ffffff 50%);
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
