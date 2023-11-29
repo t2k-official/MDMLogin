@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "username": "mdm",
+      "password": "monkey"
+    },
+    {
+      "username": "monkey",
+      "password": "AdminT2MAdmin"
+    },
+    {
+      "username": "Guest",
+      "password": "Guest"
+    }
+  ]
+}
