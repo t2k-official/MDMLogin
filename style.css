@@ -1,6 +1,6 @@
 /* Body styles */
 body {
-  background-image: url('background_image.jpg'); /* Replace 'background_image.jpg' with your image path */
+  background-image: url('Assets/home.jpg'); /* Replace 'background_image.jpg' with your image path */
   background-size: cover;
   background-position: center;
   font-family: Arial, sans-serif;
