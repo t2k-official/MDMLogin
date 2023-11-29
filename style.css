@@ -7,6 +7,27 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  position: relative;
+}
+
+/* Semi-transparent overlay for the background */
+body::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to change the overlay darkness */
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Centered container for buttons */
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 /* Header styles */
