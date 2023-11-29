@@ -17,7 +17,14 @@ function checkLogin() {
   });
 
   if (isValidUser) {
-    window.location.href = 'welcome.html'; // Redirect to welcome page upon successful login
+    if(enteredUsername === 'mdm') {
+    window.location.href = 'https://app.jamfnow.com'; 
+    }
+    else if(enteredUsername === 'monkey') {
+    window.location.href = './Important/home.md'; 
+    } else if(enteredUsername === 'guest') {
+    window.location.href = '../home.md'; 
+    }
   } else {
     alert('Invalid username or password. Please try again.');
   }
