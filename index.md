@@ -1,7 +1,7 @@
 # T2M Home Page
 ## T2M Web Pages
 
- [T2M Admin Login](./Admin/login.md)
+ [T2M Admin Login](./Admin/login.html)
 
  [School Unblocker](./SchoolUnblocker/home.md)
 
