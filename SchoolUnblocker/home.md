@@ -8,9 +8,7 @@
 ## Required Steps
 [1. Required Resources](./RequiredResources.md)
 
-[2. Supported Mdm](./SupportedMdms.md)
-
-[3. How To Remove Restrictions](./HTRR.md)
+[2. How To Remove Restrictions](./HTRR.md)
 
 ## Optional Steps
 [4. Adding Your Own Mdm](./AYOM.md)
