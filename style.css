@@ -1,6 +1,7 @@
 /* Body styles */
+/* Body styles */
 body {
-  background-image: url('Assets/home.jpg'); /* Replace 'background_image.jpg' with your image path */
+  background-image: url('background_image.jpg'); /* Replace 'background_image.jpg' with your image path */
   background-size: cover;
   background-position: center;
   font-family: Arial, sans-serif;
@@ -8,6 +9,10 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 /* Semi-transparent overlay for the background */
@@ -21,26 +26,21 @@ body::after {
   right: 0;
 }
 
-/* Centered container for buttons */
-div {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
 /* Header styles */
 h1 {
   font-size: 3em;
   text-align: center;
-  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 h2 {
   font-size: 2em;
   text-align: center;
-  margin-bottom: 30px;
+}
+
+/* Centered container for buttons */
+div {
+  text-align: center;
 }
 
 /* Button styles */
@@ -86,3 +86,11 @@ h2 {
 }
 
 /* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-size: 1.5em;
+  }
+}
